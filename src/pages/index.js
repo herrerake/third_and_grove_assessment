@@ -1,18 +1,23 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React, { Fragment } from "react";
+import { graphql } from "gatsby";
+import Header from "../components/header";
 
-const IndexPage = ({data}) => {
-  console.log(data)
+import "../styles/app.scss"
+
+const IndexPage = ({ data }) => {
+  console.log(data);
   return (
-    <div>helloworld</div>
+    <Fragment>
+      <Header/>
+    </Fragment>
   )
-}
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const query = graphql`
   {
-    allRandomUser(sort: {fields: name___last, order: ASC}) {
+    allRandomUser(sort: { fields: name___last, order: ASC }) {
       totalCount
       nodes {
         phone
@@ -32,4 +37,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
