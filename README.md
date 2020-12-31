@@ -1,48 +1,23 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal starter
+  Third and Grove Front End Developer Assessment
 </h1>
 
-## 🚀 Quick start
+## 🚀 Quick Notes
 
-1.  **Create a Gatsby site.**
+1.  **Gatsby.js as the front end**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    Given the requirement to use React and the job description asking for Gatsby I thought Gatsby would be the perfect technology.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+2.  **Randomuser Gatsby Plugin**
 
-2.  **Start developing.**
+    This plugin made it really easy to pull data from the randomuser API using graphql. Sweet! 
 
-    Navigate into your new site’s directory and start it up.
+3.  **The Sass requirement**
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+    Given this requirement I opted to use flexbox and not rely on any css frameworks such as bootstrap.
 
-3.  **Open the code and start customizing!**
+4.  **Accordion**
 
-    Your site is now running at http://localhost:8000!
+    The accordion was the most fun part of the assignment. Plus I got flex react hooks skills 💪🏽
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
