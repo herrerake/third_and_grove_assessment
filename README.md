@@ -18,6 +18,10 @@
 
 4.  **Accordion**
 
-    The accordion was the most fun part of the assignment. Plus I got flex react hooks skills 💪🏽
+    I decided to use react hooks for the functionality of the accordion.
+
+5. **GitHub Pages for deployment**
+
+    Using GitHub for deployment with a gatsby plugin
 
 

@@ -13,4 +13,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: "/third_and_grove_assessment",
 };
