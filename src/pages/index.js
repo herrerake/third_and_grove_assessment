@@ -18,6 +18,7 @@ const IndexPage = ({ data }) => {
 
 export default IndexPage;
 
+// Below I decided to order the data by last name
 export const query = graphql`
   {
     allRandomUser(sort: { fields: name___last, order: ASC }) {
