@@ -8,7 +8,7 @@ const Header = () => {
       <div>
         <FontAwesomeIcon icon={faBars} />
       </div>
-      <div>Expandable Content</div>
+      <h1>Expandable Content</h1>
       <div/>
     </header>
   );
