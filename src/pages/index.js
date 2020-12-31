@@ -6,7 +6,6 @@ import Accordion from "../components/accordion";
 import "../styles/app.scss";
 
 const IndexPage = ({ data }) => {
-  console.log(data);
   return (
     <Fragment>
       <Header />
